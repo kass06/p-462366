@@ -1,3 +1,4 @@
+
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 
@@ -87,10 +88,22 @@ const About = () => {
           <div className="w-[1636px] max-w-full mt-[101px] max-md:mt-10">
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
               <div className="w-6/12 max-md:w-full max-md:ml-0">
-                <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10" />
+                <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10 relative overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                    alt="Bombani Mthombeni" 
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                </div>
               </div>
               <div className="w-6/12 ml-5 max-md:w-full max-md:ml-0">
-                <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10" />
+                <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10 relative overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                    alt="Iketle Maleka" 
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -117,10 +130,22 @@ const About = () => {
           <div className="w-[1636px] max-w-full mt-[91px] max-md:mt-10">
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
               <div className="w-6/12 max-md:w-full max-md:ml-0">
-                <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10" />
+                <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10 relative overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                    alt="Kass Marame" 
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                </div>
               </div>
               <div className="w-6/12 ml-5 max-md:w-full max-md:ml-0">
-                <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10" />
+                <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10 relative overflow-hidden">
+                  <img 
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+                    alt="Motheo Mahapa" 
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -152,3 +177,4 @@ const About = () => {
 };
 
 export default About;
+
