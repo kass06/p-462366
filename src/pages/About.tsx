@@ -90,7 +90,7 @@ const About = () => {
               <div className="w-6/12 max-md:w-full max-md:ml-0">
                 <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10 relative overflow-hidden">
                   <img 
-                    src="/lovable-uploads/28541032-78cf-460b-973f-dddc54d410ce.png" 
+                    src="/lovable-uploads/044feab2-f6bd-40c8-83a3-00f4719fbad9.png" 
                     alt="Bombani Mthombeni" 
                     className="absolute inset-0 w-full h-full object-cover"
                   />
@@ -99,7 +99,7 @@ const About = () => {
               <div className="w-6/12 ml-5 max-md:w-full max-md:ml-0">
                 <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10 relative overflow-hidden">
                   <img 
-                    src="/lovable-uploads/89407e41-ac74-4101-8c0c-d8955a9eeac2.png" 
+                    src="/lovable-uploads/28541032-78cf-460b-973f-dddc54d410ce.png" 
                     alt="Iketle Maleka" 
                     className="absolute inset-0 w-full h-full object-cover"
                   />
@@ -132,7 +132,7 @@ const About = () => {
               <div className="w-6/12 max-md:w-full max-md:ml-0">
                 <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10 relative overflow-hidden">
                   <img 
-                    src="/lovable-uploads/044feab2-f6bd-40c8-83a3-00f4719fbad9.png" 
+                    src="/lovable-uploads/89407e41-ac74-4101-8c0c-d8955a9eeac2.png" 
                     alt="Kass Marame" 
                     className="absolute inset-0 w-full h-full object-cover"
                   />
