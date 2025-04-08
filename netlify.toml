@@ -1,0 +1,26 @@
+
+# netlify.toml
+# This file configures your Netlify deployment and handles routing for single-page applications
+
+[build]
+  # Build command (assumes you're using npm, adjust if using yarn or other)
+  command = "npm run build"
+  # Directory with the production-ready files after build
+  publish = "dist"
+
+# Handle client-side routing for React Router
+# This redirects all routes to index.html so React Router can handle them
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+# Set security headers for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
