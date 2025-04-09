@@ -1,3 +1,4 @@
+
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 
@@ -131,7 +132,7 @@ const About = () => {
               <div className="w-6/12 max-md:w-full max-md:ml-0">
                 <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10 relative overflow-hidden">
                   <img 
-                    src="public/lovable-uploads/28541032-78cf-460b-973f-dddc54d410ce.png" 
+                    src="/lovable-uploads/e81ea547-29a2-4239-bfe8-8dd788a7814b.png" 
                     alt="Kass Marame" 
                     className="absolute inset-0 w-full h-full object-cover"
                   />
