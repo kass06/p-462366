@@ -1,4 +1,3 @@
-
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 
@@ -165,6 +164,31 @@ const About = () => {
               </h3>
               <p className="font-light mt-[22px] max-md:max-w-full max-md:text-[40px]">
                 Marketing Strategist
+              </p>
+            </div>
+          </div>
+
+          <div className="w-[1636px] max-w-full mt-[91px] max-md:mt-10">
+            <div className="gap-5 flex max-md:flex-col max-md:items-stretch">
+              <div className="w-6/12 max-md:w-full max-md:ml-0">
+                <div className="bg-[rgba(151,161,175,1)] flex w-[793px] shrink-0 max-w-full h-[793px] mx-auto max-md:mt-10 relative overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/1d6c9aa1-d305-437c-8c09-4f8ef2789c35.png" 
+                    alt="Ikay" 
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex w-[1324px] max-w-full items-stretch gap-5 text-[50px] text-[rgba(34,29,38,1)] text-center flex-wrap justify-between mt-[51px] max-md:text-[40px] max-md:mt-10">
+            <div className="flex flex-col items-stretch max-md:max-w-full max-md:text-[40px]">
+              <h3 className="font-bold self-center max-md:text-[40px]">
+                Ikay
+              </h3>
+              <p className="font-light mt-[22px] max-md:max-w-full max-md:text-[40px]">
+                UI/UX Designer
               </p>
             </div>
           </div>
